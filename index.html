@@ -14,12 +14,12 @@
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-      dataLayer.推送(arguments);
+      dataLayer.push(arguments);
     }
 
-    gtag('js'， new Date());
+    gtag('js', new Date());
 
-    gtag('config'， 'G-PYVRSFMDRL');
+    gtag('config', 'G-PYVRSFMDRL');
   </script>
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -70,7 +70,7 @@
             Nerfies
           </a>
           <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusi于
+            LatentFusion
           </a>
           <a class="navbar-item" href="https://photoshape.github.io">
             PhotoShape
@@ -83,7 +83,7 @@
 </nav> -->
 
 
-<secti于 class="hero">
+<section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
@@ -91,7 +91,7 @@
 
 <!--          todo: title   -->
 
-          <h1 class="title is-1 publication-title">RD-NeRF: Neural Robust Distilled Feature Fields for Sparse-view Scene Segmentati于</h1>
+          <h1 class="title is-1 publication-title">RD-NeRF: Neural Robust Distilled Feature Fields for Sparse-view Scene Segmentation</h1>
           <div class="is-size-5 publication-authors">
             <!-- <span class="author-block">
               Keunhong Park<sup>1</sup>,</span>
@@ -299,6 +299,16 @@
         </div>
       </div>
     </div>
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths ">
+              <h2 class="title is-3">The Computational Cost Results</h2>
+              <div class="content has-text-justified">
+                <p>
+                  <img src="/images/rebuttal.png">
+              </p>
+    </div>
+  </div>
+  </div>
       <!--/Methods -->
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
@@ -397,8 +407,8 @@
               </div>
             </div>
           </div>
-        
-        
+
+
           <!-- <button id="change-image-btn" class="button ">Impainting</button> -->
           <div class="column is-6 has-text-centered ">
             <img src="./static/dino/Scannet.jpg"
@@ -440,15 +450,15 @@
                 </video>
               </div>
           </div>
-          <div class="column is-2">
-            <h5 class="title is-6 is-center">(SAM field)</h5>
-            <div class="content">
-              
-              <video width="320" height="240" autoplay muted loop playsinline height="70%">
-                <source src="./static/dino/office0_dino.mp4" type="video/mp4">
-              </video>
-            </div>
-        </div>
+<!--          <div class="column is-2">-->
+<!--            <h5 class="title is-6 is-center">(SAM field)</h5>-->
+<!--            <div class="content">-->
+<!--              -->
+<!--              <video width="320" height="240" autoplay muted loop playsinline height="70%">-->
+<!--                <source src="./static/dino/office0_dino.mp4" type="video/mp4">-->
+<!--              </video>-->
+<!--            </div>-->
+<!--        </div>-->
           <div class="column is-2">
             <h5 class="title is-6 is-center">Replica-office_2</h5>
             <div class="content">
@@ -466,14 +476,14 @@
               </video>
             </div>
           </div>
-          <div class="column is-2">
-            <h5 class="title is-6 is-center">(SAM field)</h5>
-            <div class="content">
-              <video width="320" height="240" autoplay muted loop playsinline height="70%">
-                <source src="./static/dino/office2_dino.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
+<!--          <div class="column is-2">-->
+<!--            <h5 class="title is-6 is-center">(SAM field)</h5>-->
+<!--            <div class="content">-->
+<!--              <video width="320" height="240" autoplay muted loop playsinline height="70%">-->
+<!--                <source src="./static/dino/office2_dino.mp4" type="video/mp4">-->
+<!--              </video>-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
 
         <div class="columns is-centered">
@@ -496,14 +506,14 @@
                 </video>
               </div>
           </div>
-          <div class="column is-2">
-            <h5 class="title is-6 is-center">(SAM field)</h5>
-            <div class="content">
-              <video width="320" height="240" autoplay muted loop playsinline height="70%">
-                <source src="./static/dino/scene0010_dino.mp4" type="video/mp4">
-              </video>
-            </div>
-        </div>
+<!--          <div class="column is-2">-->
+<!--            <h5 class="title is-6 is-center">(SAM field)</h5>-->
+<!--            <div class="content">-->
+<!--              <video width="320" height="240" autoplay muted loop playsinline height="70%">-->
+<!--                <source src="./static/dino/scene0010_dino.mp4" type="video/mp4">-->
+<!--              </video>-->
+<!--            </div>-->
+<!--        </div>-->
 
           <div class="column is-2">
             <h5 class="title is-6 is-center">Scene0038</h5>
@@ -522,14 +532,14 @@
               </video>
             </div>
           </div>
-          <div class="column is-2">
-            <h5 class="title is-6 is-center">(SAM field)</h5>
-            <div class="content">
-              <video width="320" height="240" autoplay muted loop playsinline height="70%">
-                <source src="./static/dino/scene0038_dino.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
+<!--          <div class="column is-2">-->
+<!--            <h5 class="title is-6 is-center">(SAM field)</h5>-->
+<!--            <div class="content">-->
+<!--              <video width="320" height="240" autoplay muted loop playsinline height="70%">-->
+<!--                <source src="./static/dino/scene0038_dino.mp4" type="video/mp4">-->
+<!--              </video>-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
       </div>
     </div>
